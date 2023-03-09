@@ -1,0 +1,63 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 1.5em;
+}
+
+input, button {
+    margin: 0.15em;
+    max-width: 10em;
+}
+
+.header-container {
+    text-align: center;
+    margin: 0.5em 0 0 0;
+}
+
+.header-container > h1 {
+    margin-bottom: 0.25em;
+}
+
+.header-container > p {
+    margin-bottom: 1.75em;
+}
+
+.form-container {
+    display: flow-root;
+}
+
+.form-input-container {
+    float: left;
+}
+
+.form-input-table {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.form-input-table td {
+    padding-right: 1.25em;
+    padding-bottom: 1em;
+}
+
+.form-input-table td select {
+    width: 100%;
+}
+
+.option-container {
+    display: inline-grid;
+    float: right;
+}
+
+.record-container {
+    margin: auto;
+    width: 15em;
+}
+
+.sample-container {
+    margin: auto;
+    width: 15em;
+}
+
+.record-container b {
+    text-transform: capitalize;
+}
